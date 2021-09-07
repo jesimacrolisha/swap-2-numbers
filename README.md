@@ -5,23 +5,23 @@ public class swap {
 
    public static void main(string[]args)
    {
-   int x,y,z;
+   int num1,num2,num3;
    scanner s=new scanner(system.in);
    system.out.print("enter the first number:");
    x=s.nextint();
    system.out.print("enter the second number:");
    z=s.nextint();
-   if(x>y && x>z)
+   if(num1>num2 && num1>num2)
    {
-    system.out.println("largest number is:"+x);
+    system.out.println("largest number is:"+num1);
     }
-    else if(y>x && y>z)
+    else if(num2>num1 && num2>num3)
     {
-     system.out.println("largest number is:"+y);
+     system.out.println("largest number is:"+num2);
      }
      else 
      {
-     system.out.println("largest number is:"+z);
+     system.out.println("largest number is:"+num3);
      }
     }
   }
